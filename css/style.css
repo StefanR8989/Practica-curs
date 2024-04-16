@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container-flex-parinte {
+  margin: 10px;
+  border: 2px dashed black;
+  padding: 10px;
+  height: 160px;
+  display: flex;
+  gap: 50px;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  align-items: flex-start;
+}
+
+.box {
+  flex-grow: 1;
+  height: 80px;
+}
+
+.indigo {
+  background-color: indigo;
+  order: 1;
+}
+
+.green {
+  background-color: green;
+  align-self: center;
+  order: 3;
+}
+
+.amber {
+  background-color: yellow;
+  align-self: flex-end;
+  order: 2;
+}
