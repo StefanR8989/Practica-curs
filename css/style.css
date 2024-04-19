@@ -59,10 +59,28 @@ body {
 .hero {
   height: 500px;
   width: 500px;
+  max-width: 1000px;
   background-color: black;
   color: white;
   background-image: url(/img/img-3.jpg);
-  background-size: 50px;
+  /* background-size: 50px; */
   background-repeat: no-repeat;
-  background-position: top right;
+  /* background-position: 50% 100%; */
+  background-size: auto;
+  background-position: 80% 10%;
+}
+
+.heading1 {
+  color: white;
+}
+
+.heading1::before,
+.heading1::after {
+  content: "";
+  height: 2px;
+  width: 50px;
+  background-color: aliceblue;
+  display: inline-block;
+  margin: 0px 30px;
+  vertical-align: middle;
 }
