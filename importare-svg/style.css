@@ -1,0 +1,17 @@
+.icon {
+  fill: red;
+  stroke: blue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  background-image: url(./icons/Group.svg);
+  background-repeat: no-repeat;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
